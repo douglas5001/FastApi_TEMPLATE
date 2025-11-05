@@ -1,0 +1,24 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+
+# Caches do Python e Pytest
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Arquivos de ambiente
+.env
+
+# Diretórios de armazenamento e uploads
+uploads/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
