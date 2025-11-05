@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 ADD https://astral.sh/uv/install.sh /install.sh
 RUN chmod -R 755 /install.sh && /install.sh && rm /install.sh
 
-# Set up the UV environment path correctly
+
 ENV PATH="/root/.local/bin:${PATH}"
 
 WORKDIR /app
