@@ -19,3 +19,13 @@ EX: uv add fastapi
 ```
 docker run -d --name postgres_jpa -e POSTGRES_USER=root -e POSTGRES_PASSWORD=SenhaForte123 -e POSTGRES_DB=jpa -p 5432:5432 postgres:15
 ```
+
+### Para fazer uso do Alembic
+
+```
+alembic revision --autogenerate -m "criação inicial de users"
+```
+
+```
+alembic upgrade head
+```
